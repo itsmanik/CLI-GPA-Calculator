@@ -12,9 +12,11 @@ void main() {
     printf("1. SGPA\n2. CGPA\n");
     scanf("%d", &choice);
     if (choice == 1) {
+        // Calculate CGPA
         calculateSGPA();
     }
     else if (choice == 2) {
+        // Calculate SGPA
         inputData();
     }
     else {
