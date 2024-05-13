@@ -1,0 +1,47 @@
+Task D: Create a function called generateReport which will be given a structure as a parameter and it should should create a report as a text file.
+
+Parameter example: 
+{char subjects[100][100], int marks[100], int semester}
+Ex: {
+	subjects: ["maths", "chem", "bio", "comp"], 
+	marks: [89, 34, 43, 45], 
+	semester: 2,
+	CGPA: 7.6
+};
+assumption: size of the array of subjects and marks array are the same.
+
+Report: 
+File name ex: Sem2Report.txt
+Semister 2 Report Example:-
+
+Subject		Marks
+
+Maths		89
+Chemistry	89
+Biology		65
+Computer	45
+
+Totol:		334/400
+CGPA: 		7.6
+
+----------------------------------------------------------------------------------------------------
+
+Task C: Create a function called computeCGPA which will be given some parameters and it should return SGPA after computation. (remember to consider there are different subjects and credits for each semister)
+
+Parameters given: 
+(int subjects[100][100], int marks[100], int semester))
+Ex: subjects = ["math", "chem", "bio", comp]
+    marks = [89, 34, 43, 45]
+    semester = 2
+
+Output: 7.6
+
+-----------------------------------------------------------------------------------------------------
+
+Task B: Create a function called inputData which will prompt user to input all subject marks and store it in arrays.
+Make an integer array to store subject marks (1-d array) and subject names (2-d array). Also have store the semister number in a variable.
+(remember to consider there are different subjects and credits for each semister)
+
+-----------------------------------------------------------------------------------------------------
+
+Task A: Create a function which takes an array of CGPA as parameter and returns SGPA.
