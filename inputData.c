@@ -8,8 +8,9 @@ int marks[100];
 
 void inputData() {
 
-    printf("Enter your semester number (1-8): \n");
+    printf("Enter your semester number (1-8): ");
     scanf("%d", &semester);
+    printf("\n");
     switch (semester) {
     case 1:
     {
