@@ -4,10 +4,11 @@
 
 char subjects[100][100];
 int semester;
+int marks[100];
 
 void inputData() {
 
-    printf("enter your semester 1-8, 1 for physics, 2 for chemistry\n");
+    printf("Enter your semester number (1-8): \n");
     scanf("%d", &semester);
     switch (semester) {
     case 1:
@@ -20,13 +21,9 @@ void inputData() {
         strcpy(subjects[5], "Communicative English OR Professional Writing Skills in English");
         strcpy(subjects[6], "Samskrutika Kannada / Balake Kannada OR Indian Constitution");
         strcpy(subjects[7], "Innovation and Design Thinking OR Scientific Foundations of Health");
-
-
-        int marks[100];
-
-
+        printf("Enter your marks obtained in: \n");
         for (int i = 0;i < 8;i++) {
-            printf("enter the marks obtained in %s \n", subjects[i]);
+            printf("%s: ", subjects[i]);
             scanf("%d", &marks[i]);
         }
         break;
@@ -43,13 +40,9 @@ void inputData() {
         strcpy(subjects[5], "Communicative English OR Professional Writing Skills in English");
         strcpy(subjects[6], "Samskrutika Kannada / Balake Kannada OR Indian Constitution");
         strcpy(subjects[7], "Innovation and Design Thinking OR Scientific Foundations of Health");
-
-
-        int marks[100];
-
-
+        printf("Enter your marks obtained in: \n");
         for (int i = 0;i < 8;i++) {
-            printf("enter the marks obtained in %s \n", subjects[i]);
+            printf("%s: ", subjects[i]);
             scanf("%d", &marks[i]);
         }
         break;
@@ -66,14 +59,9 @@ void inputData() {
         strcpy(subjects[6], "Social Connect and Responsibility");
         strcpy(subjects[7], "Ability Enhancement Course/Skill Enhancement Course");
         strcpy(subjects[8], "NSS/PE/Yoga");
-
-
-
-        int marks[100];
-
-
+        printf("Enter your marks obtained in: \n");
         for (int i = 0;i < 9;i++) {
-            printf("enter the marks obtained in %s \n", subjects[i]);
+            printf("%s: ", subjects[i]);
             scanf("%d", &marks[i]);
         }
         break;
@@ -91,15 +79,9 @@ void inputData() {
         strcpy(subjects[6], "Biology For Engineers");
         strcpy(subjects[7], "Universal human values course");
         strcpy(subjects[8], "NSS/PE/Yoga");
-
-
-
-        int marks[100];
-
-
-
+        printf("Enter your marks obtained in: \n");
         for (int i = 0;i < 9;i++) {
-            printf("enter the marks obtained in %s \n", subjects[i]);
+            printf("%s: ", subjects[i]);
             scanf("%d", &marks[i]);
         }
         break;
@@ -116,13 +98,9 @@ void inputData() {
         strcpy(subjects[6], "Research Methodology and IPR");
         strcpy(subjects[7], "Environmental Studies");
         strcpy(subjects[8], "NSS/PE/Yoga");
-
-
-
-        int marks[100];
-
+        printf("Enter your marks obtained in: \n");
         for (int i = 0;i < 9;i++) {
-            printf("enter the marks obtained in %s \n", subjects[i]);
+            printf("%s: ", subjects[i]);
             scanf("%d", &marks[i]);
         }
         break;
@@ -138,13 +116,9 @@ void inputData() {
         strcpy(subjects[5], "Machine Learning lab");
         strcpy(subjects[6], "Ability Enhancement Course/Skill Development Course");
         strcpy(subjects[7], "NSS/PE/Yoga");
-
-
-
-        int marks[100];
-
+        printf("Enter your marks obtained in: \n");
         for (int i = 0;i < 8;i++) {
-            printf("enter the marks obtained in %s \n", subjects[i]);
+            printf("%s: ", subjects[i]);
             scanf("%d", &marks[i]);
         }
         break;
@@ -158,13 +132,9 @@ void inputData() {
         strcpy(subjects[3], "Professional Elective Course");
         strcpy(subjects[4], "Open Elective Course");
         strcpy(subjects[5], "Major Project Phase-II");
-
-
-
-        int marks[100];
-
+        printf("Enter your marks obtained in: \n");
         for (int i = 0;i < 6;i++) {
-            printf("enter the marks obtained in %s \n", subjects[i]);
+            printf("%s: ", subjects[i]);
             scanf("%d", &marks[i]);
         }
         break;
@@ -175,13 +145,9 @@ void inputData() {
         strcpy(subjects[0], "Professional Elective (Online Courses) Only through NPTEL");
         strcpy(subjects[1], "Open Elective (Online Courses) Only through NPTEL");
         strcpy(subjects[2], "Internship (Industry/Research)");
-
-
-
-        int marks[100];
-
+        printf("Enter your marks obtained in: \n");
         for (int i = 0;i < 3;i++) {
-            printf("enter the marks obtained in %s \n", subjects[i]);
+            printf("%s: ", subjects[i]);
             scanf("%d", &marks[i]);
         }
         break;
