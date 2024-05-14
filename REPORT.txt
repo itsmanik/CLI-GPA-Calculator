@@ -4,12 +4,12 @@
 +---------------------------------------------+
 | SUBJECT                         | MARK |
 +---------------------------------------------+
-| Mathematics for Computer Science |   34 |
+| Mathematics for Computer Science |   45 |
 +---------------------------------------------+
-| Digital Design & Computer Organization |   34 |
+| Digital Design & Computer Organization |   45 |
 +---------------------------------------------+
-| Operating Systems              |   34 |
+| Operating Systems              |   45 |
 +---------------------------------------------+
-| Data Structures and Applications |   34 |
+| Data Structures and Applications |   66 |
 +---------------------------------------------+
-SGPA : 4.000000 
+SGPA : 5.190476 

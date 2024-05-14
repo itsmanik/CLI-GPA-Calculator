@@ -2,13 +2,21 @@
 #include"computeSGPA.c"
 #include<string.h>
 
+#define ANSI_COLOR_RED     "\x1b[31m"
+#define ANSI_COLOR_GREEN   "\x1b[32m"
+#define ANSI_COLOR_YELLOW  "\x1b[33m"
+#define ANSI_COLOR_BLUE    "\x1b[34m"
+#define ANSI_COLOR_MAGENTA "\x1b[35m"
+#define ANSI_COLOR_CYAN    "\x1b[36m"
+#define ANSI_COLOR_RESET   "\x1b[0m"
+
 char subjects[100][100];
 int semester;
 int marks[100];
 
 void inputData() {
 
-    printf("Enter your semester number (1-8): ");
+    printf("Enter your semester number (1-8)"ANSI_COLOR_YELLOW": "ANSI_COLOR_RESET);
     scanf("%d", &semester);
     printf("\n");
     switch (semester) {
@@ -22,9 +30,9 @@ void inputData() {
         strcpy(subjects[5], "Communicative English OR Professional Writing Skills in English");
         strcpy(subjects[6], "Samskrutika Kannada / Balake Kannada OR Indian Constitution");
         strcpy(subjects[7], "Innovation and Design Thinking OR Scientific Foundations of Health");
-        printf("Enter your marks obtained in: \n");
+        printf("Enter your marks obtained in" ANSI_COLOR_YELLOW"\n"ANSI_COLOR_RESET);
         for (int i = 0;i < 8;i++) {
-            printf("%s: ", subjects[i]);
+            printf(ANSI_COLOR_CYAN"%s"ANSI_COLOR_RESET ANSI_COLOR_YELLOW": "ANSI_COLOR_RESET, subjects[i]);
             scanf("%d", &marks[i]);
         }
         break;
@@ -41,9 +49,9 @@ void inputData() {
         strcpy(subjects[5], "Communicative English OR Professional Writing Skills in English");
         strcpy(subjects[6], "Samskrutika Kannada / Balake Kannada OR Indian Constitution");
         strcpy(subjects[7], "Innovation and Design Thinking OR Scientific Foundations of Health");
-        printf("Enter your marks obtained in: \n");
+        printf("Enter your marks obtained in" ANSI_COLOR_YELLOW"\n"ANSI_COLOR_RESET);
         for (int i = 0;i < 8;i++) {
-            printf("%s: ", subjects[i]);
+            printf(ANSI_COLOR_CYAN"%s"ANSI_COLOR_RESET ANSI_COLOR_YELLOW": "ANSI_COLOR_RESET, subjects[i]);
             scanf("%d", &marks[i]);
         }
         break;
@@ -60,9 +68,9 @@ void inputData() {
         strcpy(subjects[6], "Social Connect and Responsibility");
         strcpy(subjects[7], "Ability Enhancement Course/Skill Enhancement Course");
         strcpy(subjects[8], "NSS/PE/Yoga");
-        printf("Enter your marks obtained in: \n");
+        printf("Enter your marks obtained in" ANSI_COLOR_YELLOW"\n"ANSI_COLOR_RESET);
         for (int i = 0;i < 9;i++) {
-            printf("%s: ", subjects[i]);
+            printf(ANSI_COLOR_CYAN"%s"ANSI_COLOR_RESET ANSI_COLOR_YELLOW": "ANSI_COLOR_RESET, subjects[i]);
             scanf("%d", &marks[i]);
         }
         break;
@@ -80,9 +88,9 @@ void inputData() {
         strcpy(subjects[6], "Biology For Engineers");
         strcpy(subjects[7], "Universal human values course");
         strcpy(subjects[8], "NSS/PE/Yoga");
-        printf("Enter your marks obtained in: \n");
+        printf("Enter your marks obtained in" ANSI_COLOR_YELLOW"\n"ANSI_COLOR_RESET);
         for (int i = 0;i < 9;i++) {
-            printf("%s: ", subjects[i]);
+            printf(ANSI_COLOR_CYAN"%s"ANSI_COLOR_RESET ANSI_COLOR_YELLOW": "ANSI_COLOR_RESET, subjects[i]);
             scanf("%d", &marks[i]);
         }
         break;
@@ -99,9 +107,9 @@ void inputData() {
         strcpy(subjects[6], "Research Methodology and IPR");
         strcpy(subjects[7], "Environmental Studies");
         strcpy(subjects[8], "NSS/PE/Yoga");
-        printf("Enter your marks obtained in: \n");
+        printf("Enter your marks obtained in" ANSI_COLOR_YELLOW"\n"ANSI_COLOR_RESET);
         for (int i = 0;i < 9;i++) {
-            printf("%s: ", subjects[i]);
+            printf(ANSI_COLOR_CYAN"%s"ANSI_COLOR_RESET ANSI_COLOR_YELLOW": "ANSI_COLOR_RESET, subjects[i]);
             scanf("%d", &marks[i]);
         }
         break;
@@ -117,9 +125,9 @@ void inputData() {
         strcpy(subjects[5], "Machine Learning lab");
         strcpy(subjects[6], "Ability Enhancement Course/Skill Development Course");
         strcpy(subjects[7], "NSS/PE/Yoga");
-        printf("Enter your marks obtained in: \n");
+        printf("Enter your marks obtained in" ANSI_COLOR_YELLOW"\n"ANSI_COLOR_RESET);
         for (int i = 0;i < 8;i++) {
-            printf("%s: ", subjects[i]);
+            printf(ANSI_COLOR_CYAN"%s"ANSI_COLOR_RESET ANSI_COLOR_YELLOW": "ANSI_COLOR_RESET, subjects[i]);
             scanf("%d", &marks[i]);
         }
         break;
@@ -133,9 +141,9 @@ void inputData() {
         strcpy(subjects[3], "Professional Elective Course");
         strcpy(subjects[4], "Open Elective Course");
         strcpy(subjects[5], "Major Project Phase-II");
-        printf("Enter your marks obtained in: \n");
+        printf("Enter your marks obtained in" ANSI_COLOR_YELLOW"\n"ANSI_COLOR_RESET);
         for (int i = 0;i < 6;i++) {
-            printf("%s: ", subjects[i]);
+            printf(ANSI_COLOR_CYAN"%s"ANSI_COLOR_RESET ANSI_COLOR_YELLOW": "ANSI_COLOR_RESET, subjects[i]);
             scanf("%d", &marks[i]);
         }
         break;
@@ -146,14 +154,15 @@ void inputData() {
         strcpy(subjects[0], "Professional Elective (Online Courses) Only through NPTEL");
         strcpy(subjects[1], "Open Elective (Online Courses) Only through NPTEL");
         strcpy(subjects[2], "Internship (Industry/Research)");
-        printf("Enter your marks obtained in: \n");
+        printf("Enter your marks obtained in" ANSI_COLOR_YELLOW"\n"ANSI_COLOR_RESET);
         for (int i = 0;i < 3;i++) {
-            printf("%s: ", subjects[i]);
+            printf(ANSI_COLOR_CYAN"%s"ANSI_COLOR_RESET ANSI_COLOR_YELLOW": "ANSI_COLOR_RESET, subjects[i]);
+
             scanf("%d", &marks[i]);
         }
         break;
     }
     }
-
+    printf("the report has been made in file REPORT\n");
     computeSGPA(semester, subjects, marks);
 }
