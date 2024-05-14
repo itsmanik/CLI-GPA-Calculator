@@ -17,8 +17,8 @@ void main() {
     printf(ANSI_COLOR_YELLOW "==============================\n");
     printf("|       GPA Calculator       |\n");
     printf("==============================\n");
-    printf("| " ANSI_COLOR_BLUE "1. Calculate SGPA" ANSI_COLOR_YELLOW "          |\n");
-    printf("| " ANSI_COLOR_BLUE "2. Calculate CGPA" ANSI_COLOR_YELLOW "          |\n");
+    printf("| " ANSI_COLOR_CYAN "1. Calculate SGPA" ANSI_COLOR_YELLOW "          |\n");
+    printf("| " ANSI_COLOR_CYAN "2. Calculate CGPA" ANSI_COLOR_YELLOW "          |\n");
     printf("| " ANSI_COLOR_RED "3. Exit" ANSI_COLOR_YELLOW "                    |\n");
     printf("==============================\n\n" ANSI_COLOR_RESET);
     printf("Enter your choice: ");
