@@ -1,5 +1,5 @@
 #include<stdio.h>
-#include"computeCGPA.c"
+#include"computeSGPA.c"
 #include<string.h>
 
 char subjects[100][100];
@@ -155,5 +155,5 @@ void inputData() {
     }
     }
 
-    computeCGPA(semester, subjects, marks);
+    computeSGPA(semester, subjects, marks);
 }

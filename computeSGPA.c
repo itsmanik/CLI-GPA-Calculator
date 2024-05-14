@@ -3,7 +3,7 @@
 
 float SGPA;
 
-void computeCGPA(int semester, char subjects[100][100], int marks[100]) {
+void computeSGPA(int semester, char subjects[100][100], int marks[100]) {
     int grade[100], grade_x_credit[100];
 
     int sumOfCredits = 0;

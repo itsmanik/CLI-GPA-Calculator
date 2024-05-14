@@ -1,8 +1,8 @@
 #include<stdio.h>
 
-float SGPA;
+float CGPA;
 
-void calculateSGPA() {
+void calculateCGPA() {
     printf("Calculating sgpa...");
     // your code...
 }
