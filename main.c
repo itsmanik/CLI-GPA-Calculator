@@ -29,7 +29,7 @@ void main() {
     }
     else if (choice == 2) {
         // Calculate CGPA
-        calculateSGPA();
+        calculateCGPA();
     }
     else {
         printf("Invalid Input");
