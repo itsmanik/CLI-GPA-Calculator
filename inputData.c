@@ -162,6 +162,5 @@ void inputData() {
         break;
     }
     }
-    printf("the report has been made in file REPORT\n");
     computeSGPA(semester, subjects, marks);
 }
