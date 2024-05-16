@@ -157,7 +157,6 @@ void inputData() {
         printf("Enter your marks obtained in" ANSI_COLOR_YELLOW"\n"ANSI_COLOR_RESET);
         for (int i = 0;i < 3;i++) {
             printf(ANSI_COLOR_CYAN"%s"ANSI_COLOR_RESET ANSI_COLOR_YELLOW": "ANSI_COLOR_RESET, subjects[i]);
-
             scanf("%d", &marks[i]);
         }
         break;
