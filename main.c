@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include"inputData.c"
 #include"calculateCGPA.c"
+#include"analyzeGPA.c"
 
 #define ANSI_COLOR_RED     "\x1b[31m"
 #define ANSI_COLOR_GREEN   "\x1b[32m"
@@ -24,15 +25,22 @@ void main() {
     printf("=============================\n\n" ANSI_COLOR_RESET);
     printf("Enter your choice"ANSI_COLOR_YELLOW": "ANSI_COLOR_RESET);
     scanf("%d", &choice);
-    if (choice == 1) {
+    switch (choice) {
+    case 1:
         // Calculate SGPA
         inputData();
-    }
-    else if (choice == 2) {
-        // Calculate CGPA
+        break;
+    case 2:
+        // Calculate SGPA
         calculateCGPA();
-    }
-    else {
-        printf("Invalid Input");
+        break;
+    case 3:
+        analyzeGPA();
+        break;
+    case 4:
+        exit(1);
+    default:
+        printf("Invalid input");
+        exit(1);
     }
 }

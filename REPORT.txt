@@ -1,15 +1,15 @@
 +---------------------------------+
-| SEMESTER : 3                    |
+| SEMESTER : 8                    |
 +---------------------------------+
 +---------------------------------------------+
 | SUBJECT                         | MARK |
 +---------------------------------------------+
-| Mathematics for Computer Science |   34 |
+| Professional Elective (Online Courses) Only through NPTEL |   23 |
 +---------------------------------------------+
-| Digital Design & Computer Organization |   34 |
+| Open Elective (Online Courses) Only through NPTEL |   23 |
 +---------------------------------------------+
-| Operating Systems              |   34 |
+| Internship (Industry/Research) |   34 |
 +---------------------------------------------+
-| Data Structures and Applications |   34 |
+|                                |    0 |
 +---------------------------------------------+
-SGPA : 4.000000 
+SGPA : 3.625000 
