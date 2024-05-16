@@ -4,12 +4,12 @@
 +---------------------------------------------+
 | SUBJECT                         | MARK |
 +---------------------------------------------+
-| Professional Elective (Online Courses) Only through NPTEL |   23 |
+| Professional Elective (Online Courses) Only through NPTEL |   99 |
 +---------------------------------------------+
-| Open Elective (Online Courses) Only through NPTEL |   23 |
+| Open Elective (Online Courses) Only through NPTEL |   99 |
 +---------------------------------------------+
-| Internship (Industry/Research) |   34 |
+| Internship (Industry/Research) |    0 |
 +---------------------------------------------+
 |                                |    0 |
 +---------------------------------------------+
-SGPA : 3.625000 
+SGPA : 4.375000 
