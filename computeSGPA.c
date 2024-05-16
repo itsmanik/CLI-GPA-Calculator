@@ -56,7 +56,10 @@ void computeSGPA(int semester, char subjects[100][100], int marks[100]) {
 
     for (int i = 0; i < noOfSubjects; i++) {
         sumOfCredits += credits[i];
-        grades[i] = (marks[i] / 10) + 1;
+        if (marks[i] < 100)
+            grades[i] = (marks[i] / 10) + 1;
+        else
+            grades[i] = 10;
         grade_x_credit[i] = grades[i] * credits[i];
         sum += grade_x_credit[i];
     }
