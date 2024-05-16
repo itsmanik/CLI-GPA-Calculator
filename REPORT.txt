@@ -1,15 +1,15 @@
 +---------------------------------+
-| SEMESTER : 7                    |
+| SEMESTER : 8                    |
 +---------------------------------+
 +---------------------------------------------+
 | SUBJECT                         | MARK |
 +---------------------------------------------+
-| Internet of Things             |   56 |
+| Professional Elective (Online Courses) Only through NPTEL |   45 |
 +---------------------------------------------+
-| Parallel Computing             |   56 |
+| Open Elective (Online Courses) Only through NPTEL |   45 |
 +---------------------------------------------+
-| Cryptography & Network Security |   56 |
+| Internship (Industry/Research) |   45 |
 +---------------------------------------------+
-| Professional Elective Course   |   56 |
+|                                |    0 |
 +---------------------------------------------+
-SGPA : -15.119617 
+SGPA : 5.000000 

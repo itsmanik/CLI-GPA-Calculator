@@ -46,6 +46,8 @@ void computeSGPA(int semester, char subjects[100][100], int marks[100]) {
         credits[0] = 3, credits[1] = 3, credits[2] = 10;
     }
 
+    for (int i = 0; credits[i] != '\0'; i++);
+    
     for (int i = 0; credits[i] != '\0'; i++) {
         printf("%d ", credits[i]);
         sumOfCredits += credits[i];
