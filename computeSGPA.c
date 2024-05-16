@@ -1,5 +1,4 @@
 #include<stdio.h>
-#include"generateReport.c"
 #include"displayReport.c"
 
 float SGPA;
@@ -66,5 +65,4 @@ void computeSGPA(int semester, char subjects[100][100], int marks[100]) {
 
     SGPA = sum / sumOfCredits;
     displayReport(semester, subjects, marks, SGPA, noOfSubjects);
-    generateReport(semester, subjects, marks, SGPA);
 }
