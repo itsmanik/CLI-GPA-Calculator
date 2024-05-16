@@ -19,7 +19,8 @@ void main() {
     printf("=============================\n");
     printf("| "ANSI_COLOR_RESET"1" ANSI_COLOR_YELLOW"."ANSI_COLOR_RESET "Calculate SGPA"  ANSI_COLOR_YELLOW "          |\n");
     printf("| "ANSI_COLOR_RESET"2" ANSI_COLOR_YELLOW"."ANSI_COLOR_RESET "Calculate CGPA"  ANSI_COLOR_YELLOW "          |\n");
-    printf("| "ANSI_COLOR_RESET"3"  ANSI_COLOR_YELLOW"." ANSI_COLOR_RESET "Exit"  ANSI_COLOR_YELLOW "                    |\n");
+    printf("| "ANSI_COLOR_RESET"3" ANSI_COLOR_YELLOW"."ANSI_COLOR_RESET "Analyze GPA"  ANSI_COLOR_YELLOW "             |\n");
+    printf("| "ANSI_COLOR_RESET"4"  ANSI_COLOR_YELLOW"." ANSI_COLOR_RESET "Exit"  ANSI_COLOR_YELLOW "                    |\n");
     printf("=============================\n\n" ANSI_COLOR_RESET);
     printf("Enter your choice"ANSI_COLOR_YELLOW": "ANSI_COLOR_RESET);
     scanf("%d", &choice);
