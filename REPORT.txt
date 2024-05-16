@@ -1,15 +1,15 @@
 +---------------------------------+
-| SEMESTER : 3                    |
+| SEMESTER : 7                    |
 +---------------------------------+
 +---------------------------------------------+
 | SUBJECT                         | MARK |
 +---------------------------------------------+
-| Mathematics for Computer Science |   45 |
+| Internet of Things             |   56 |
 +---------------------------------------------+
-| Digital Design & Computer Organization |   45 |
+| Parallel Computing             |   56 |
 +---------------------------------------------+
-| Operating Systems              |   45 |
+| Cryptography & Network Security |   56 |
 +---------------------------------------------+
-| Data Structures and Applications |   66 |
+| Professional Elective Course   |   56 |
 +---------------------------------------------+
-SGPA : 5.190476 
+SGPA : -15.119617 

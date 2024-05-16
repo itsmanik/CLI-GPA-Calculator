@@ -1,5 +1,6 @@
 #include<stdio.h>
 #include"generateReport.c"
+#include"displayReport.c"
 
 float SGPA;
 
@@ -38,24 +39,23 @@ void computeSGPA(int semester, char subjects[100][100], int marks[100]) {
     }
 
     else if (semester == 7) {
-        int credits[100] = { 4, 4, 4, 3, 3, 6 };
         credits[0] = 4, credits[1] = 4, credits[2] = 4, credits[3] = 3, credits[4] = 3, credits[5] = 6;
     }
 
     else if (semester == 8) {
-        int credits[100] = { 3 ,3, 10 };
         credits[0] = 3, credits[1] = 3, credits[2] = 10;
     }
 
     for (int i = 0; credits[i] != '\0'; i++) {
+        printf("%d ", credits[i]);
         sumOfCredits += credits[i];
         noOfSubjects++;
         grades[i] = (marks[i] / 10) + 1;
         grade_x_credit[i] = grades[i] * credits[i];
         sum += grade_x_credit[i];
     }
-    
-    SGPA = sum / sumOfCredits;
 
+    SGPA = sum / sumOfCredits;
+    displayReport(semester, subjects, marks, SGPA, noOfSubjects);
     generateReport(semester, subjects, marks, SGPA);
 }
