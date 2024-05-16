@@ -13,18 +13,21 @@ float calculateCGPA()
     float sum=0;
     float SGPA[100];
     float CGPA;
-    printf("Enter SGPA of 8 semesters"ANSI_COLOR_YELLOW":\n"ANSI_COLOR_RESET);
+    int totalSem;
+    printf("Enter number of completed semesters"ANSI_COLOR_YELLOW": "ANSI_COLOR_RESET);
+    scanf("%d",&totalSem);
+    printf("Enter SGPA of %d semesters"ANSI_COLOR_YELLOW":\n"ANSI_COLOR_RESET,totalSem );
     printf("\n");
-    for(int i=0;i<8;i++)
+    for(int i=0;i<totalSem;i++)
     {
         printf(ANSI_COLOR_CYAN"Semester %d"ANSI_COLOR_RESET ANSI_COLOR_YELLOW": "ANSI_COLOR_RESET,i+1);
         scanf("%f",&SGPA[i]);
         sum += SGPA[i];
     }
 
-    CGPA = sum/8;
+    CGPA = sum/totalSem;
     printf("\n");
-    printf(ANSI_COLOR_GREEN "CGPA"ANSI_COLOR_YELLOW":"ANSI_COLOR_RESET" %.2f",CGPA);
+    printf(ANSI_COLOR_GREEN "CGPA"ANSI_COLOR_YELLOW":"ANSI_COLOR_RESET" %.2f\n",CGPA);
 
 
 }
